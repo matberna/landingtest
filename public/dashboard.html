@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Product example · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/product/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      body {
+        font-family: Arial;
+      }
+
+      .container {
+  max-width: 960px;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="product.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<header class="site-header sticky-top py-1">
+  <nav class="container d-flex flex-column flex-md-row justify-content-between">
+    <a class="text-uppercase text-white" href="index.html" style="text-decoration: none;"><span class="me-2" style="font-size: 25px;">Tom Ford</span><span style="font-size: 15px;" data-i18n-key="logo_sub" ></span></a>
+    <a class="py-2 text-uppercase text-white text-sm" href="#" style="text-decoration: none;" data-i18n-key="navbar-1"></a>
+    <a class="py-2 text-uppercase text-white text-sm" href="#" style="text-decoration: none;" data-i18n-key="navbar-2"></a>
+    <a class="py-2 text-uppercase text-white text-sm" href="#" style="text-decoration: none;" data-i18n-key="navbar-3"></a>
+    <a class="py-2 text-uppercase text-white text-sm" href="#" style="text-decoration: none;"><i class="fa-solid fa-shop me-2 fa-fw fa-sm"></i><span data-i18n-key="navbar-4"></span></a>
+    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <i class="fa-solid fa-user"></i>
+    </a>
+    <ul class="dropdown-menu rounded-0 shadow-sm">
+      <li><h6 class="dropdown-header" data-i18n-key="user-menu-1"></h6></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item text-dark" data-i18n-key="user-menu-2" style="font-size: 0.85rem;" href="#"></a></li>
+      <li><a class="dropdown-item text-dark" data-i18n-key="user-menu-3" style="font-size: 0.85rem;" href="#"></a></li>
+      <li><a class="dropdown-item text-dark" data-i18n-key="user-menu-4" style="font-size: 0.85rem;" href="#"></a></li>
+    </ul>
+    <span class="py-2">
+      <span class="text-white"><i class="fa-solid fa-language fa-fw fa-xl"></i></span>
+      <select data-i18n-switcher class="locale-switcher">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+      </select>
+    </span>
+  </nav>
+</header>
+
+<main>
+    <div class="row  g-0 ">
+        <div class="col-3">
+            <ul class="list-group list-group-flush p-3">
+                <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase" data-i18n-key="side-menu-1"></a>
+                <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase" data-i18n-key="side-menu-2"></a>
+                <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase" data-i18n-key="side-menu-3"></a>
+                <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase" data-i18n-key="side-menu-4"></a>
+                <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase" data-i18n-key="side-menu-5"></a>
+              </ul>
+              <hr>
+
+        </div>
+        <div class="col-9">
+
+
+        </div>
+
+    </div>
+</main>
+
+
+<footer class="container py-5 bg-dark w-100 text-white" style="max-width: 100%;">
+    <div class="row">
+      <div class="col-12 col-md">
+        <div class="text-uppercase"><span class="me-2" style="font-size: 25px;">Tom Ford</span><span style="font-size: 15px;" data-i18n-key="logo_sub">Eyewear</span></div>
+      </div>
+      <div class="col-12 text-sm"><small>© 2023 TOM FORD. All Rights Reserved.</small></div>
+    </div>
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./bundle.js"></script>
+
+  </body>
+</html>
