@@ -1,0 +1,58 @@
+{
+    "logo_sub": "Lunettes",
+    "navbar-1": "Hommes",
+    "navbar-2": "Femmes",
+    "navbar-3": "Collections",
+    "navbar-4": "Boutique",
+    "user-menu-1": "Bienvenue Mario",
+    "user-menu-2": "Mon tableau de bord",
+    "user-menu-3": "Mon compte",
+    "user-menu-4": "Ma liste de souhaits",
+    "title-1": "Hiver 22/23",
+    "title-2": "Perdez-vous dans la nouvelle collection d'hiver de Tom Ford.",
+    "title-3": "Découvrir",
+    "btn-1": "Acheter maintenant",
+    "btn-2": "Acheter maintenant",
+    "deal-title-1": "Jusqu'à 70% sur tous les produits",
+
+   
+    "side-menu-1": "Mon compte",
+    "side-menu-2": "Profil",
+    "side-menu-3": "Mes commandes",
+    "side-menu-4": "Carnet d'adresses",
+    "side-menu-5": "Méthodes de paiement",
+
+    "customer-care-message-1": "Besoin d'aide?",
+    "customer-care-message-2": "SI VOUS AVEZ DES QUESTIONS OU AVEZ BESOIN D'AIDE AVEC VOTRE COMPTE, VOUS POUVEZ NOUS CONTACTER POUR VOUS AIDER.<br>SERVICE CLIENT<br>DISPONIBLE DE 8H À 21H HNE, 7JOURS SUR 7< br>1-888-TOM-FORD",
+
+    "page-subtitle": "Mon tableau de bord",
+
+    "service-block-1-title": "Données personnelles",
+    "service-block-1-subtitle-1": "E-mail:",
+    "service-block-1-subtitle-2": "Prénom:",
+    "service-block-1-subtitle-3": "Nom de famille:",
+    "service-block-1-btn": "Modifier",
+
+    "service-block-2-title": "Vos commandes récentes",
+    "service-block-2-subtitle-1": "Aucune commande récente",
+    "service-block-2-btn": "Vérifier",
+
+    "service-block-3-title": "Vos cartes de crédit",
+    "service-block-3-subtitle-1": "Aucune carte de crédit trouvée",
+    "service-block-3-btn": "Ajouter",
+
+    "service-block-4-title": "Adresses de livraison",
+    "service-block-4-subtitle-1": "Aucune adresse de livraison ajoutée",
+    "service-block-4-btn": "Ajouter",
+
+    "service-block-5-title": "Liste de souhaits",
+    "service-block-5-subtitle-1": "Aucun produit dans la liste de souhaits",
+    "service-block-5-btn": "Ajouter",
+
+    "coupon-sect-title-1": "Coupons expirant",
+    "coupon-sect-1-desc": "Récompense de fidélité: 50% sur toutes les lunettes de soleil.",
+    "coupon-sect-1-exp": "expirant le",
+
+    "last_seen_products_title-1": "Produits vus en dernier:"
+   
+}

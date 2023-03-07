@@ -4,7 +4,7 @@
     "navbar-2": "Donne",
     "navbar-3": "Collezioni",
     "navbar-4": "Negozio",
-    "user-menu-1": "Benvenuto John",
+    "user-menu-1": "Benvenuto Mario",
     "user-menu-2": "La mia Dashboard",
     "user-menu-3": "Il mio Account",
     "user-menu-4": "La mia lista desideri",
@@ -13,12 +13,46 @@
     "title-3": "Scopri",
     "btn-1": "Acquista",
     "btn-2": "Acquista",
-    "test1": "Testone",
+    "deal-title-1": "Fino al 70% su tutti i prodotti",
 
     
     "side-menu-1": "Il Mio Account",
     "side-menu-2": "Profilo",
     "side-menu-3": "I Miei Ordini",
     "side-menu-4": "I miei Indirizzi",
-    "side-menu-5": "Metodi di Pagamento"
+    "side-menu-5": "Metodi di Pagamento",
+
+    "customer-care-message-1": "Serve aiuto?",
+    "customer-care-message-2": "SE HAI DOMANDE O HAI BISOGNO DI AIUTO CON IL TUO ACCOUNT, PUOI CONTATTARCI PER AIUTARTI.<br>ASSISTENZA CLIENTI<br>DISPONIBILE DALLE 8:00 ALLE 21:00 EST, 7 GIORNI A SETTIMANA<br>1-888-TOM-FORD",
+
+    "page-subtitle": "La mia Dashboard",
+
+    "service-block-1-title": "Dati Personali",
+    "service-block-1-subtitle-1": "Email:",
+    "service-block-1-subtitle-2": "Nome:",
+    "service-block-1-subtitle-3": "Cognome:",
+    "service-block-1-btn": "Modifica",
+
+    "service-block-2-title": "I tuoi ordini recenti",
+    "service-block-2-subtitle-1": "Non hai ordini recenti",
+    "service-block-2-btn": "Guarda",
+
+    "service-block-3-title": "Le tue carte di credito",
+    "service-block-3-subtitle-1": "Non hai aggiunto nessuna carta di credito",
+    "service-block-3-btn": "Aggiungi",
+
+    "service-block-4-title": "Indirizzi di Spedizione",
+    "service-block-4-subtitle-1": "Non hai inserito nessun indirizzo di spedizione",
+    "service-block-4-btn": "Inserisci",
+
+    "service-block-5-title": "Lista dei Desideri",
+    "service-block-5-subtitle-1": "Non hai inserito nessun prodotto nella Lista dei Desideri",
+    "service-block-5-btn": "Inserisci",
+
+    "coupon-sect-title-1": "Coupon in Scadenza",
+    "coupon-sect-1-desc": "Premio Fedeltà: 50% su tutti gli Occhiali da Sole.",
+    "coupon-sect-1-exp": "scadrà il ",
+
+    "last_seen_products_title-1": "Ultimi prodotti visti:"
+
 }

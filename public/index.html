@@ -122,6 +122,14 @@
     <a class="py-2 text-uppercase text-white text-sm" href="#" style="text-decoration: none;" data-i18n-key="navbar-2"></a>
     <a class="py-2 text-uppercase text-white text-sm" href="#" style="text-decoration: none;" data-i18n-key="navbar-3"></a>
     <a class="py-2 text-uppercase text-white text-sm" href="#" style="text-decoration: none;"><i class="fa-solid fa-shop me-2 fa-fw fa-sm"></i><span data-i18n-key="navbar-4"></span></a>
+    <div class="input-group py-1 input-group-sm" style="width: 175px; height: 35px;">
+      <label class="input-group-text" for="inputGroupSelect01"><i class="fa-solid fa-language fa-fw fa-xl"></i></label>
+      <select data-i18n-switcher class="locale-switcher form-select  form-select-sm">
+        <option value="it">Italiano</option>
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+      </select>
+    </div>
     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="fa-solid fa-user"></i>
     </a>
@@ -132,13 +140,6 @@
       <li><a class="dropdown-item text-dark" data-i18n-key="user-menu-3" style="font-size: 0.85rem;" href="#"></a></li>
       <li><a class="dropdown-item text-dark" data-i18n-key="user-menu-4" style="font-size: 0.85rem;" href="#"></a></li>
     </ul>
-    <span class="py-2">
-      <span class="text-white"><i class="fa-solid fa-language fa-fw fa-xl"></i></span>
-      <select data-i18n-switcher class="locale-switcher">
-        <option value="it">Italiano</option>
-        <option value="en">English</option>
-      </select>
-    </span>
   </nav>
 </header>
 
@@ -152,14 +153,14 @@
   </div>
 
   <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-    <div class="col-6" style="background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url(https://www.otticasm.com/media/catalog/category/FT0836.jpg);height: 600px;">
+    <div class="col-6 m-3" style="background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url(https://www.otticasm.com/media/catalog/category/FT0836.jpg);height: 600px;">
       <div class="row h-100  g-0">
         <div class="col text-right flex-column d-flex">
           <a class="btn btn-light rounded-0 shadow-sm btn-lg mt-auto" data-i18n-key="btn-1" href="#"></a>
         </div>
       </div>
     </div>
-    <div class="col-6" style="background-position: top; background-repeat: no-repeat; background-size: cover; background-image: url(https://static.wixstatic.com/media/bc95b8_dd93617c2d5c4653ab958b169e9fb71e~mv2.jpg/v1/fill/w_520,h_742,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Tom%20Ford%20mens%20eyewear.jpg);height: 600px;">
+    <div class="col-6 m-3" style="background-position: top; background-repeat: no-repeat; background-size: cover; background-image: url(https://static.wixstatic.com/media/bc95b8_dd93617c2d5c4653ab958b169e9fb71e~mv2.jpg/v1/fill/w_520,h_742,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Tom%20Ford%20mens%20eyewear.jpg);height: 600px;">
       <div class="row h-100  g-0">
         <div class="col text-right flex-column d-flex">
           <a class="btn btn-light rounded-0 shadow-sm btn-lg mt-auto" data-i18n-key="btn-2" href="#"></a>
@@ -178,10 +179,27 @@
   </div>
 </footer>
 
-
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered modal-xl">
+    <div class="modal-content shadow-lg">
+      <div class="modal-body d-flex flex-column" style="height: 650px; background-image: url(https://techprincess.it/wp-content/uploads/2021/12/Black-Friday.jpg); background-position: center; background-repeat: no-repeat;">
+        <button class="btn btn-light rounded-circle" style="position: absolute; top: -12px; left: -17px; z-index: 2;" data-bs-dismiss="modal"><i class="fa-solid fa-xmark"></i></button>
+        <div class="text-white mt-auto fs-6 text-uppercase fw-bold" data-i18n-key="deal-title-1"></div>
+      </div>
+    </div>
+  </div>
+</div>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/js/all.min.js" integrity="sha512-2bMhOkE/ACz21dJT8zBOMgMecNxx0d37NND803ExktKiKdSzdwn+L7i9fdccw/3V06gM/DBWKbYmQvKMdAA9Nw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script src="./bundle.js"></script>
+<script>
+  const myModal = new bootstrap.Modal(document.getElementById('exampleModal'), {
+    keyboard: false
+  });
+  myModal.show(myModal);
+
+</script>
 
   </body>
 </html>

@@ -10,7 +10,7 @@ async function initI18next() {
       .use(LanguageDetector)
       .init({
         debug: true,
-        supportedLngs: ["en", "it"],
+        supportedLngs: ["en", "it", "fr"],
         fallbackLng: "en",
         // Allow "en" to be used for
         // "en-US", "en-CA", etc.
