@@ -8,6 +8,10 @@
     "user-menu-2": "La mia Dashboard",
     "user-menu-3": "Il mio Account",
     "user-menu-4": "La mia lista desideri",
+    "user-menu-5": "Carrello",
+    "user-btn-1": "Esci",
+
+
     "title-1": "Inverno 22/23",
     "title-2": "Immergiti nella nuova collezione Tom Ford per l'Inverno.",
     "title-3": "Scopri",
@@ -23,7 +27,7 @@
     "side-menu-5": "Metodi di Pagamento",
 
     "customer-care-message-1": "Serve aiuto?",
-    "customer-care-message-2": "SE HAI DOMANDE O HAI BISOGNO DI AIUTO CON IL TUO ACCOUNT, PUOI CONTATTARCI PER AIUTARTI.<br>ASSISTENZA CLIENTI<br>DISPONIBILE DALLE 8:00 ALLE 21:00 EST, 7 GIORNI A SETTIMANA<br>1-888-TOM-FORD",
+    "customer-care-message-2": "SE HAI DOMANDE O HAI BISOGNO DI AIUTO CON IL TUO ACCOUNT, PUOI CONTATTARCI PER AIUTARTI.<br><br>ASSISTENZA CLIENTI<br>DISPONIBILE DALLE 8:00 ALLE 21:00 EST, 7 GIORNI A SETTIMANA<br><br>1-888-TOM-FORD",
 
     "page-subtitle": "La mia Dashboard",
 
@@ -49,10 +53,21 @@
     "service-block-5-subtitle-1": "Non hai inserito nessun prodotto nella Lista dei Desideri",
     "service-block-5-btn": "Inserisci",
 
+    "service-block-6-title": "Programma Fedeltà",
+    "service-block-6-subtitle-1": "Ti mancano ",
+    "service-block-6-subtitle-2": " punti per accedere alla prossima ricompensa.",
+    "service-block-6-btn": "Guarda",
+
     "coupon-sect-title-1": "Coupon in Scadenza",
     "coupon-sect-1-desc": "Premio Fedeltà: 50% su tutti gli Occhiali da Sole.",
     "coupon-sect-1-exp": "scadrà il ",
 
-    "last_seen_products_title-1": "Ultimi prodotti visti:"
+    "last_seen_products_title-1": "Ultimi prodotti visti:",
+
+    "footer-newsletter-1": "Iscriviti alla newsletter di Tom Ford",
+    "footer-newsletter-2": "Iscriviti per ricevere le ultime notizie, aggiornamenti e vantaggi per i membri su Tom Ford.",
+    "footer-newsletter-3": "Inserisci la tua email",
+    "copyright": "Tutti i diritti sono riservati."
+
 
 }

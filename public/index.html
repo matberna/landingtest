@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tom Ford - Eyewear</title>
+  <link href="https://www.tomford.com/on/demandware.static/Sites-tomford-Site/-/default/dw1388dcb2/images/favicon.ico" rel="shortcut icon">
 
   <!-- Bootstrap core CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -49,7 +50,7 @@
 </head>
 
 <body>
-  <header class="site-header sticky-top py-1">
+  <header class="site-header sticky-top">
     <nav class="p-2">
       <div class="row g-0">
         <div class="col-6 col-md-2">
@@ -57,40 +58,56 @@
               class="me-2 fs-4">Tom Ford</span><span style="font-size: 15px;" data-i18n-key="logo_sub"></span></a>
         </div>
         <div class="col-8 d-none d-md-flex justify-content-center">
-          <a class="text-uppercase text-white fs-5 my-auto mx-3" href="#" style="text-decoration: none;"
-            data-i18n-key="navbar-1"></a>
-          <a class="text-uppercase text-white fs-5 my-auto mx-3" href="#" style="text-decoration: none;"
-            data-i18n-key="navbar-2"></a>
-          <a class="text-uppercase text-white fs-5 my-auto mx-3" href="#" style="text-decoration: none;"
-            data-i18n-key="navbar-3"></a>
-          <a class="text-uppercase text-white fs-5 my-auto mx-3" href="#" style="text-decoration: none;"><i
-              class="fa-solid fa-shop me-2 fa-fw fa-sm"></i><span data-i18n-key="navbar-4"></span></a>
+          <a class="text-uppercase text-white fs-5 my-auto mx-3" href="#" style="text-decoration: none;" data-i18n-key="navbar-1"></a>
+          <a class="text-uppercase text-white fs-5 my-auto mx-3" href="#" style="text-decoration: none;" data-i18n-key="navbar-2"></a>
+          <a class="text-uppercase text-white fs-5 my-auto mx-3" href="#" style="text-decoration: none;" data-i18n-key="navbar-3"></a>
+          <a class="text-uppercase text-white fs-5 my-auto mx-3" href="#" style="text-decoration: none;"><i class="fa-solid fa-shop me-2 fa-fw fa-sm"></i><span data-i18n-key="navbar-4"></span></a>
         </div>
         <div class="col-6 col-md-2 d-flex">
           <div class="input-group py-1 input-group-sm ms-auto" style="width: 175px; height: 35px;">
-            <label class="input-group-text" for="inputGroupSelect01"><i
+            <label class="input-group-text rounded-0" for="inputGroupSelect01"><i
                 class="fa-solid fa-language fa-fw fa-xl"></i></label>
-            <select data-i18n-switcher class="locale-switcher form-select  form-select-sm">
+            <select data-i18n-switcher class="locale-switcher form-select form-select-sm rounded-0">
               <option value="it">Italiano</option>
               <option value="en">English</option>
               <option value="fr">Français</option>
+              <option value="es">Espanol</option>
+              <option value="de">Deutsch</option>
             </select>
           </div>
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <i class="fa-solid fa-user"></i>
           </a>
-          <ul class="dropdown-menu rounded-0 shadow-sm">
+          <ul class="dropdown-menu rounded-0 shadow-lg">
             <li>
               <h6 class="dropdown-header" data-i18n-key="user-menu-1"></h6>
             </li>
             <li>
               <hr class="dropdown-divider">
             </li>
-            <li><a class="dropdown-item text-dark" data-i18n-key="user-menu-2" style="font-size: 0.85rem;"
-                href="dashboard.html"></a></li>
-            <li><a class="dropdown-item text-dark" data-i18n-key="user-menu-3" style="font-size: 0.85rem;" href="#"></a>
+            <li>
+              <a class="dropdown-item text-dark" data-i18n-key="user-menu-2" style="font-size: 0.85rem;" href="dashboard.html"></a>
             </li>
-            <li><a class="dropdown-item text-dark" data-i18n-key="user-menu-4" style="font-size: 0.85rem;" href="#"></a>
+            <li>
+              <a class="dropdown-item text-dark" data-i18n-key="user-menu-3" style="font-size: 0.85rem;" href="#"></a>
+            </li>
+            <li>
+              <a class="dropdown-item text-dark" data-i18n-key="user-menu-4" style="font-size: 0.85rem;" href="#"></a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li>
+              <a class="dropdown-item text-dark fw-bold text-uppercase" style="font-size: 0.75rem;">
+                <i class="fa-solid fa-cart-shopping fa-fw me-2"></i><span data-i18n-key="user-menu-5"></span>
+                <span class="float-end badge text-white rounded-0 bg-dark text-center">0</span>
+              </a>
+            </li>
+            <li>
+              <hr class="dropdown-divider">
+            </li>
+            <li class="d-grid mt-auto py-1 px-3">
+              <button class="btn btn-outline-dark shadow-sm btn-sm rounded-0 text-uppercase text-sm fw-bold" data-i18n-key="user-btn-1"></button>
             </li>
           </ul>
         </div>
@@ -109,32 +126,55 @@
     </div>
 
     <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
-      <div class="col-12 col-md-6 m-3"
-        style="background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url(https://www.otticasm.com/media/catalog/category/FT0836.jpg);height: 600px;">
-        <div class="row h-100  g-0">
-          <div class="col text-right flex-column d-flex">
-            <a class="btn btn-light rounded-0 shadow-sm btn-lg mt-auto" data-i18n-key="btn-1" href="#"></a>
+      <div class="col-12 col-md-6 my-3 me-3" style="background-position: center; background-repeat: no-repeat; background-size: cover; background-image: url(https://www.otticasm.com/media/catalog/category/FT0836.jpg);height: 600px;">
+        <div class="row h-100 g-0 d-flex flex-column">
+          <div class="col text-right d-flex flex-column">
+            <a class="btn btn-outline-light rounded-0 shadow-sm btn-lg mt-auto me-auto m-3" data-i18n-key="btn-1" href="#"></a>
           </div>
         </div>
       </div>
-      <div class="col-12 col-md-6 m-3"
-        style="background-position: top; background-repeat: no-repeat; background-size: cover; background-image: url(https://static.wixstatic.com/media/bc95b8_dd93617c2d5c4653ab958b169e9fb71e~mv2.jpg/v1/fill/w_520,h_742,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Tom%20Ford%20mens%20eyewear.jpg);height: 600px;">
-        <div class="row h-100  g-0">
-          <div class="col text-right flex-column d-flex">
-            <a class="btn btn-light rounded-0 shadow-sm btn-lg mt-auto" data-i18n-key="btn-2" href="#"></a>
+      <div class="col-12 col-md-6 my-3 me-3" style="background-position: top; background-repeat: no-repeat; background-size: cover; background-image: url(https://static.wixstatic.com/media/bc95b8_dd93617c2d5c4653ab958b169e9fb71e~mv2.jpg/v1/fill/w_520,h_742,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Tom%20Ford%20mens%20eyewear.jpg);height: 600px;">
+        <div class="row h-100 g-0 d-flex flex-column">
+          <div class="col text-right d-flex flex-column">
+            <a class="btn btn-outline-light rounded-0 shadow-sm btn-lg mt-auto ms-auto m-3" data-i18n-key="btn-2" href="#"></a>
           </div>
         </div>
       </div>
     </div>
   </main>
 
-  <footer class="container py-5 bg-dark w-100 text-white" style="max-width: 100%;">
-    <div class="row">
-      <div class="col-12 col-md">
-        <div class="text-uppercase"><span class="me-2" style="font-size: 25px;">Tom Ford</span><span
-            style="font-size: 15px;" data-i18n-key="logo_sub">Eyewear</span></div>
+  <footer class="container p-2 bg-dark w-100 text-white" style="max-width: 100%;">
+    <div class="row p-3 g-0">
+      <div class="col-8">
+        <div class="text-uppercase fs-3 fw-bolder" data-i18n-key="footer-newsletter-1"></div>
+        <div class="fs-6 text-muted" data-i18n-key="footer-newsletter-2"></div>
       </div>
-      <div class="col-12 text-sm"><small>© 2023 TOM FORD. All Rights Reserved.</small></div>
+      <div class="col-4 m-auto">
+        <div class="text-uppercase fw-bold" style="font-size: 0.75rem;">
+          <span class="text-white" data-i18n-key="footer-newsletter-3"></span>
+        </div>
+        <div class="input-group input-group-sm mb-3">
+          <input type="text" class="form-control rounded-0" placeholder="" aria-label="" aria-describedby="button-addon2">
+          <button class="btn btn-light rounded-0 bg-white" type="button" id="button-addon2"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+    <hr class="my-2">
+    <div class="row g-0 p-3">
+      <div class="col">
+        <div class="text-uppercase">
+          <span class="me-2" style="font-size: 25px;">Tom Ford</span>
+          <span style="font-size: 15px;" data-i18n-key="logo_sub">Eyewear</span>
+        </div>
+        <div class="text-muted"><small>© 2023 TOM FORD. <span data-i18n-key="copyright"></span></small></div>
+      </div>
+      <div class="col-auto m-auto">
+        <i class="fa-brands fa-fw fa-xl fa-cc-visa"></i>
+        <i class="fa-brands fa-fw fa-xl fa-cc-mastercard"></i>
+        <i class="fa-brands fa-fw fa-xl fa-cc-stripe"></i>
+        <i class="fa-brands fa-fw fa-xl fa-cc-paypal"></i>
+        <i class="fa-brands fa-fw fa-xl fa-cc-amazon-pay"></i>
+      </div>
     </div>
   </footer>
 

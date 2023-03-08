@@ -4,10 +4,14 @@
     "navbar-2": "Women",
     "navbar-3": "Collections",
     "navbar-4": "Shop",
+
     "user-menu-1": "Welcome Mario",
     "user-menu-2": "My Dashboard",
     "user-menu-3": "My Account",
     "user-menu-4": "My Wishlist",
+    "user-menu-5": "Cart",
+    "user-btn-1": "Logout",
+
     "title-1": "Winter 22/23",
     "title-2": "Lose yourself into the new Tom Ford's Winter collection.",
     "title-3": "Discover",
@@ -23,7 +27,7 @@
     "side-menu-5": "Payment Methods",
 
     "customer-care-message-1": "Need Help?",
-    "customer-care-message-2": "IF YOU HAVE ANY QUESTIONS OR NEED HELP WITH YOUR ACCOUNT, YOU MAY CONTACT US TO ASSIST YOU.<br>CUSTOMER SERVICE<br>AVAILABLE 8AM - 9PM EST, 7 DAYS A WEEK<br>1-888-TOM-FORD",
+    "customer-care-message-2": "IF YOU HAVE ANY QUESTIONS OR NEED HELP WITH YOUR ACCOUNT, YOU MAY CONTACT US TO ASSIST YOU.<br><br>CUSTOMER SERVICE<br>AVAILABLE 8AM - 9PM EST, 7 DAYS A WEEK<br><br>1-888-TOM-FORD",
 
     "page-subtitle": "My Dashboard",
 
@@ -49,10 +53,20 @@
     "service-block-5-subtitle-1": "No products in the wishlist",
     "service-block-5-btn": "Add",
 
+    "service-block-6-title": "Loyalty Program",
+    "service-block-6-subtitle-1": "You are ",
+    "service-block-6-subtitle-2": " points away from accessing the next reward.",
+    "service-block-6-btn": "Check",
+
     "coupon-sect-title-1": "Expiring Coupons",
     "coupon-sect-1-desc": "Loyalty Reward: 50% on all Sunglasses.",
     "coupon-sect-1-exp": "expiring on ",
 
-    "last_seen_products_title-1": "Last seen products:"
+    "last_seen_products_title-1": "Last seen products:",
+
+    "footer-newsletter-1": "Subscribe Tom Ford newsletter",
+    "footer-newsletter-2": "Signup to receive the latest on Tom Ford news, updates and member benefits.",
+    "footer-newsletter-3": "Enter your email",
+    "copyright": "All Rights Reserved."
     
 }

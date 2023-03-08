@@ -4,10 +4,14 @@
     "navbar-2": "Femmes",
     "navbar-3": "Collections",
     "navbar-4": "Boutique",
+
     "user-menu-1": "Bienvenue Mario",
     "user-menu-2": "Mon tableau de bord",
     "user-menu-3": "Mon compte",
     "user-menu-4": "Ma liste de souhaits",
+    "user-menu-5": "Chariot",
+    "user-btn-1": "Sortie",
+
     "title-1": "Hiver 22/23",
     "title-2": "Perdez-vous dans la nouvelle collection d'hiver de Tom Ford.",
     "title-3": "Découvrir",
@@ -23,7 +27,7 @@
     "side-menu-5": "Méthodes de paiement",
 
     "customer-care-message-1": "Besoin d'aide?",
-    "customer-care-message-2": "SI VOUS AVEZ DES QUESTIONS OU AVEZ BESOIN D'AIDE AVEC VOTRE COMPTE, VOUS POUVEZ NOUS CONTACTER POUR VOUS AIDER.<br>SERVICE CLIENT<br>DISPONIBLE DE 8H À 21H HNE, 7JOURS SUR 7< br>1-888-TOM-FORD",
+    "customer-care-message-2": "SI VOUS AVEZ DES QUESTIONS OU AVEZ BESOIN D'AIDE AVEC VOTRE COMPTE, VOUS POUVEZ NOUS CONTACTER POUR VOUS AIDER.<br><br>SERVICE CLIENT<br>DISPONIBLE DE 8H À 21H HNE, 7JOURS SUR 7<br><br>1-888-TOM-FORD",
 
     "page-subtitle": "Mon tableau de bord",
 
@@ -49,10 +53,20 @@
     "service-block-5-subtitle-1": "Aucun produit dans la liste de souhaits",
     "service-block-5-btn": "Ajouter",
 
+    "service-block-6-title": "Programme de fidélité",
+    "service-block-6-subtitle-1": "Vous êtes ",
+    "service-block-6-subtitle-2": " points d'accès à la prochaine récompense.",
+    "service-block-6-btn": "Vérifier",
+
     "coupon-sect-title-1": "Coupons expirant",
     "coupon-sect-1-desc": "Récompense de fidélité: 50% sur toutes les lunettes de soleil.",
     "coupon-sect-1-exp": "expirant le",
 
-    "last_seen_products_title-1": "Produits vus en dernier:"
+    "last_seen_products_title-1": "Produits vus en dernier:",
+    
+    "footer-newsletter-1": "Inscrivez-vous à la newsletter de Tom Ford",
+    "footer-newsletter-2": "Inscrivez-vous pour recevoir les dernières nouvelles, les mises à jour et les avantages des membres sur Tom Ford.",
+    "footer-newsletter-3": "Entre votre email",
+    "copyright": "Tous droits réservés."
    
 }
