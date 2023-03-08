@@ -3,7 +3,7 @@
 
 Questo repository contiene i sorgenti di una Landing Page sviluppata con l'obbiettivo di implementare una gestione snella e rapida per la gestione delle lingue.
 
-La Landing Page è quindi un mockup sviluppato su un ipotetico eCommerce di marca Tom Ford per i vari prodotti del settore Eyewear. 
+La Landing Page è quindi un mockup sviluppato su un ipotetico ecommerce di marca Tom Ford per i vari prodotti del settore Eyewear. 
 
 Le uniche pagine visitabili sono la Homepage e la Dashboard, ovvero la pagina di gestione account dove un utente appena registrato viene indirizzato dall'applicazione.
 
@@ -22,6 +22,20 @@ Le uniche pagine visitabili sono la Homepage e la Dashboard, ovvero la pagina di
 #### Bootstrap 5.2
 Per la Landing Page è stato deciso di utilizzare Bootstrap 5.2 per la rapidità che offre nello sviluppo e la facilità di implementazione, soprattutto per quanto riguarda la gestione del display flex.
 In più, si presta molto facilmente ad essere personalizzato a seconda delle necessità.
+
+#### Dashboard
+La pagina che è stata individuata come quella che accoglie un utente appena registrato è la Dashboard. Solitamente, un utente appena registrato viene indirizzato o nella Homepage o nella Dashboard dove magari ha la possibilità di integrare nel suo profilo informazioni ritenute secondarie e quindi non implementate nel processo di registrazione.
+Nella Dashboard di questa Landing Page l'utente ha la possibilità di accedere alle funzionalità più comuni di un profilo eCommerce, che quindi sono:
+
+- Dati Personali
+- Ordini
+- Carte di Credito e Metodi di Pagamento
+- Indirizzi di Spedizione / Indirizzi di Fatturazione
+- Wishlist
+- Scontistica dedicata
+
+Nella fattispecie di questa Landing Page, si è ipotizzato un "Programma Fedeltà" con dei punti assegnati all'utente in base a varie azioni svolte dallo stesso (es: acquisto di un prodotto ecc..). Al raggiungimento di una quota, il sistema elargirebbe all'utente Coupon o scontistica personalizzata sul prossimo acquisto.
+In questa pagina, l'Utente può anche avere evidenza degli eventuali Coupon non ancora riscattati ed in procinto di scadere e la cronologia degli ultimi prodotti visti nell'ecommerce.
 
 #### Gestione Multilingua
 Nella Landing Page si è deciso di utilizzare i18next, uno dei framework di localizzazione più famosi disponibili in rete.
@@ -97,3 +111,6 @@ function dir(locale) {
 })();
 ```
 
+#### Webpack
+Per agevolarmi nel deploy dell'applicativo ho utilizzato Webpack, ovvero un applicativo che permette di impacchettare vari file in uno o più bundle. Nello specifico, l'ho utilizzato per impacchettare le diverse dipendenze di i18next così da poterne fare il deploy in Github Pages. A questo proposito, ho utilizzato anche un altro plugin Javascript (ghub-pages).
+Per agevolarmi nello sviluppo ho invece installato webpack-dev che non fa altro che aggiornare la pagina del browser dove è aperto l'applicativo ed aggiornare il server quando vengono notificati dei cambi nei file del progetto.
