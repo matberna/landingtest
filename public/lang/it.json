@@ -12,7 +12,7 @@
     "user-btn-1": "Esci",
 
 
-    "title-1": "Inverno 22/23",
+    "title-1": "Inverno 2022/2023",
     "title-2": "Immergiti nella nuova collezione Tom Ford per l'Inverno.",
     "title-3": "Scopri",
     "btn-1": "Acquista",
@@ -22,8 +22,8 @@
     
     "side-menu-1": "Il Mio Account",
     "side-menu-2": "Profilo",
-    "side-menu-3": "I Miei Ordini",
-    "side-menu-4": "I miei Indirizzi",
+    "side-menu-3": "I Tuoi Ordini",
+    "side-menu-4": "I Tuoi Indirizzi",
     "side-menu-5": "Metodi di Pagamento",
 
     "customer-care-message-1": "Serve aiuto?",
@@ -68,6 +68,4 @@
     "footer-newsletter-2": "Iscriviti per ricevere le ultime notizie, aggiornamenti e vantaggi per i membri su Tom Ford.",
     "footer-newsletter-3": "Inserisci la tua email",
     "copyright": "Tutti i diritti sono riservati."
-
-
 }

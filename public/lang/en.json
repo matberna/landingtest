@@ -12,7 +12,7 @@
     "user-menu-5": "Cart",
     "user-btn-1": "Logout",
 
-    "title-1": "Winter 22/23",
+    "title-1": "Winter 2022/2023",
     "title-2": "Lose yourself into the new Tom Ford's Winter collection.",
     "title-3": "Discover",
     "btn-1": "Shop Now",
@@ -22,7 +22,7 @@
     
     "side-menu-1": "My Account",
     "side-menu-2": "Profile",
-    "side-menu-3": "My Orders",
+    "side-menu-3": "Your Orders",
     "side-menu-4": "Address Book",
     "side-menu-5": "Payment Methods",
 
@@ -68,5 +68,4 @@
     "footer-newsletter-2": "Signup to receive the latest on Tom Ford news, updates and member benefits.",
     "footer-newsletter-3": "Enter your email",
     "copyright": "All Rights Reserved."
-    
 }

@@ -78,6 +78,7 @@
               <option value="fr">Français</option>
               <option value="es">Espanol</option>
               <option value="de">Deutsch</option>
+              <option value="ar">Arabic</option>
             </select>
           </div>
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -91,13 +92,16 @@
               <hr class="dropdown-divider">
             </li>
             <li>
-              <a class="dropdown-item text-dark" data-i18n-key="user-menu-2" style="font-size: 0.85rem;" href="dashboard.html"></a>
+              <a class="dropdown-item text-dark" style="font-size: 0.85rem;" href="dashboard.html">
+                <span data-i18n-key="user-menu-2"></span>
+                <span class="float-end"><i class="fa-solid fa-exclamation fa-fw fa-shake"></i></span>
+              </a>
             </li>
             <li>
-              <a class="dropdown-item text-dark" data-i18n-key="user-menu-3" style="font-size: 0.85rem;" href="#"></a>
+              <a class="dropdown-item text-dark disabled" data-i18n-key="user-menu-3" style="font-size: 0.85rem;" href="#"></a>
             </li>
             <li>
-              <a class="dropdown-item text-dark" data-i18n-key="user-menu-4" style="font-size: 0.85rem;" href="#"></a>
+              <a class="dropdown-item text-dark disabled" data-i18n-key="user-menu-4" style="font-size: 0.85rem;" href="#"></a>
             </li>
             <li>
               <hr class="dropdown-divider">
@@ -124,16 +128,11 @@
     <div class="row p-3 g-0">
       <div class="d-none d-lg-block col-12 col-lg-3 p-3">
         <ul class="list-group list-group-flush">
-          <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase"
-            data-i18n-key="side-menu-1"></a>
-          <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase"
-            data-i18n-key="side-menu-2"></a>
-          <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase"
-            data-i18n-key="side-menu-3"></a>
-          <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase"
-            data-i18n-key="side-menu-4"></a>
-          <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase"
-            data-i18n-key="side-menu-5"></a>
+          <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase" data-i18n-key="side-menu-1"></a>
+          <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase" data-i18n-key="side-menu-2"></a>
+          <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase" data-i18n-key="side-menu-3"></a>
+          <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase" data-i18n-key="side-menu-4"></a>
+          <a href="#" class="list-group-item list-group-item-action text-sm text-uppercase" data-i18n-key="side-menu-5"></a>
         </ul>
         <hr>
         <div class="p-3"><span class="fw-bold text-sm text-uppercase" data-i18n-key="customer-care-message-1"></span>
@@ -142,7 +141,7 @@
 
       </div>
       <div class="col-12 col-lg-9">
-        <div class="h4 text-uppercase"><span data-i18n-key="page-subtitle"></span> | <span class=" fw-bolder">Mario
+        <div class="h4 text-uppercase"><span data-i18n-key="page-subtitle"></span> | <span class="fw-bolder">Mario
             Rossi</span></div>
         <div class="row">
           <div class="col-12 col-md-4 my-2">
@@ -175,7 +174,7 @@
 
           <div class="col-12 col-md-4 my-2">
             <div class="p-3 border border-dark rounded-0 d-flex flex-column" style="height: 200px !important;">
-              <div class="h4 text-uppercase fw-bolder" data-i18n-key="service-block-3-title">Carte di Credito</div>
+              <div class="h4 text-uppercase fw-bolder" data-i18n-key="service-block-3-title"></div>
               <div class="text-uppercase" style="font-size: 0.75rem;">
                 <span class="text-secondary" data-i18n-key="service-block-3-subtitle-1"></span>
               </div>
@@ -213,7 +212,7 @@
             <div class="p-3 border border-dark rounded-0 d-flex flex-column" style="height: 200px !important;">
               <div class="h4 text-uppercase fw-bolder" data-i18n-key="service-block-6-title"></div>
               <div class="mb-2">
-                <div class="progress rounded-0 shadow-sm">
+                <div class="progress rounded-0">
                   <div class="progress-bar" role="progressbar" aria-label="Example with label" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">900 / 1200</div>
                 </div>
               </div>
