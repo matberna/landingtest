@@ -114,3 +114,9 @@ function dir(locale) {
 #### Webpack
 Per agevolarmi nel deploy dell'applicativo ho utilizzato Webpack, ovvero un applicativo che permette di impacchettare vari file in uno o più bundle. Nello specifico, l'ho utilizzato per impacchettare le diverse dipendenze di i18next così da poterne fare il deploy in Github Pages. A questo proposito, ho utilizzato anche un altro plugin Javascript (ghub-pages).
 Per agevolarmi nello sviluppo ho invece installato webpack-dev che non fa altro che aggiornare la pagina del browser dove è aperto l'applicativo ed aggiornare il server quando vengono notificati dei cambi nei file del progetto.
+
+## ToDo ed Ottimizzazioni
+- Migliorare la gestione delle lingue "RTL" come l'Arabo
+- Interpolazione
+- Plurali
+- Separazione del progetto in componenti (es: Navbar, Footer ecc..)
