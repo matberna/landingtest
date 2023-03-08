@@ -4414,7 +4414,7 @@ async function initI18next() {
         // "en-US", "en-CA", etc.
         nonExplicitSupportedLngs: true,
         backend: {
-          loadPath: "/lang/{{lng}}.json",
+          loadPath: "lang/{{lng}}.json",
         },
       });
   }
