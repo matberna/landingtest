@@ -4408,7 +4408,7 @@ async function initI18next() {
       .use(i18next_browser_languagedetector__WEBPACK_IMPORTED_MODULE_2__["default"])
       .init({
         debug: true,
-        supportedLngs: ["en", "it"],
+        supportedLngs: ["en", "it", "fr", "es", "de", "ar"],
         fallbackLng: "en",
         // Allow "en" to be used for
         // "en-US", "en-CA", etc.
@@ -4421,6 +4421,7 @@ async function initI18next() {
 // Quick refactor of the page translation code
 // to a function
 function translatePageElements() {
+  setHTML_lang(i18next.language);
   const translatableElements = document.querySelectorAll(
     "[data-i18n-key]",
   );
@@ -4440,6 +4441,15 @@ function bindLocaleSwitcher(initialValue) {
         .then(translatePageElements);
     };
   }
+
+function setHTML_lang(locale) {
+  document.documentElement.dir = dir(i18next.resolvedLanguage);
+  document.documentElement.lang = i18next.resolvedLanguage;
+}
+
+function dir(locale) {
+  return locale === "ar" ? "rtl" : "ltr";
+}
 
 // Init
 (async function () {
