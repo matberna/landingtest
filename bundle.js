@@ -4421,7 +4421,7 @@ async function initI18next() {
 // Quick refactor of the page translation code
 // to a function
 function translatePageElements() {
-  setHTML_lang(i18next.language);
+  setHTML_lang(i18next__WEBPACK_IMPORTED_MODULE_0__["default"].language);
   const translatableElements = document.querySelectorAll(
     "[data-i18n-key]",
   );
@@ -4443,8 +4443,8 @@ function bindLocaleSwitcher(initialValue) {
   }
 
 function setHTML_lang(locale) {
-  document.documentElement.dir = dir(i18next.resolvedLanguage);
-  document.documentElement.lang = i18next.resolvedLanguage;
+  document.documentElement.dir = dir(i18next__WEBPACK_IMPORTED_MODULE_0__["default"].resolvedLanguage);
+  document.documentElement.lang = i18next__WEBPACK_IMPORTED_MODULE_0__["default"].resolvedLanguage;
 }
 
 function dir(locale) {
