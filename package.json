@@ -1,6 +1,9 @@
 {
   "name": "landingtest",
   "version": "1.0.0",
+  "repository": {
+    "url": "git+https://github.com/matberna/landingtest.git"
+  },
   "description": "",
   "main": "src/index.js",
   "scripts": {
