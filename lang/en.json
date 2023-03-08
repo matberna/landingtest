@@ -1,0 +1,71 @@
+{
+    "logo_sub": "Eyewear",
+    "navbar-1": "Men",
+    "navbar-2": "Women",
+    "navbar-3": "Collections",
+    "navbar-4": "Shop",
+
+    "user-menu-1": "Welcome Mario",
+    "user-menu-2": "My Dashboard",
+    "user-menu-3": "My Account",
+    "user-menu-4": "My Wishlist",
+    "user-menu-5": "Cart",
+    "user-btn-1": "Logout",
+
+    "title-1": "Winter 2022/2023",
+    "title-2": "Lose yourself into the new Tom Ford's Winter collection.",
+    "title-3": "Discover",
+    "btn-1": "Shop Now",
+    "btn-2": "Shop Now",
+    "deal-title-1": "Up to 70% on all products",
+
+    
+    "side-menu-1": "My Account",
+    "side-menu-2": "Profile",
+    "side-menu-3": "Your Orders",
+    "side-menu-4": "Address Book",
+    "side-menu-5": "Payment Methods",
+
+    "customer-care-message-1": "Need Help?",
+    "customer-care-message-2": "IF YOU HAVE ANY QUESTIONS OR NEED HELP WITH YOUR ACCOUNT, YOU MAY CONTACT US TO ASSIST YOU.<br><br>CUSTOMER SERVICE<br>AVAILABLE 8AM - 9PM EST, 7 DAYS A WEEK<br><br>1-888-TOM-FORD",
+
+    "page-subtitle": "My Dashboard",
+
+    "service-block-1-title": "Personal Data",
+    "service-block-1-subtitle-1": "Email:",
+    "service-block-1-subtitle-2": "First Name:",
+    "service-block-1-subtitle-3": "Last Name:",
+    "service-block-1-btn": "Edit",
+
+    "service-block-2-title": "Your Recent Orders",
+    "service-block-2-subtitle-1": "No recent orders",
+    "service-block-2-btn": "Check",
+
+    "service-block-3-title": "Your credit cards",
+    "service-block-3-subtitle-1": "No credit cards found",
+    "service-block-3-btn": "Add",
+
+    "service-block-4-title": "Shipping Addresses",
+    "service-block-4-subtitle-1": "No shipping address added",
+    "service-block-4-btn": "Add",
+
+    "service-block-5-title": "WishList",
+    "service-block-5-subtitle-1": "No products in the wishlist",
+    "service-block-5-btn": "Add",
+
+    "service-block-6-title": "Loyalty Program",
+    "service-block-6-subtitle-1": "You are ",
+    "service-block-6-subtitle-2": " points away from accessing the next reward.",
+    "service-block-6-btn": "Check",
+
+    "coupon-sect-title-1": "Expiring Coupons",
+    "coupon-sect-1-desc": "Loyalty Reward: 50% on all Sunglasses.",
+    "coupon-sect-1-exp": "expiring on ",
+
+    "last_seen_products_title-1": "Last seen products:",
+
+    "footer-newsletter-1": "Subscribe Tom Ford newsletter",
+    "footer-newsletter-2": "Signup to receive the latest on Tom Ford news, updates and member benefits.",
+    "footer-newsletter-3": "Enter your email",
+    "copyright": "All Rights Reserved."
+}
