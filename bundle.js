@@ -4400,9 +4400,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-// We make the function async so we can await
-// the translation file as it pipes down the
-// network
+//INIZIALIZZAZIONE I18NEXT
 async function initI18next() {
     await i18next__WEBPACK_IMPORTED_MODULE_0__["default"].use(i18next_http_backend__WEBPACK_IMPORTED_MODULE_1__["default"])
       .use(i18next_browser_languagedetector__WEBPACK_IMPORTED_MODULE_2__["default"])
@@ -4410,16 +4408,14 @@ async function initI18next() {
         debug: true,
         supportedLngs: ["en", "it", "fr", "es", "de", "ar"],
         fallbackLng: "en",
-        // Allow "en" to be used for
-        // "en-US", "en-CA", etc.
         nonExplicitSupportedLngs: true,
         backend: {
           loadPath: "lang/{{lng}}.json",
         },
       });
   }
-// Quick refactor of the page translation code
-// to a function
+
+//INJECTION TESTO 
 function translatePageElements() {
   setHTML_lang(i18next__WEBPACK_IMPORTED_MODULE_0__["default"].language);
   const translatableElements = document.querySelectorAll(
@@ -4431,6 +4427,7 @@ function translatePageElements() {
   });
 }
 
+//EVENTO SELECT
 function bindLocaleSwitcher(initialValue) {
     const switcher = document.querySelector(
       "[data-i18n-switcher]",
@@ -4442,6 +4439,7 @@ function bindLocaleSwitcher(initialValue) {
     };
   }
 
+//GESTIONE RTL e METATAG LANG
 function setHTML_lang(locale) {
   document.documentElement.dir = dir(i18next__WEBPACK_IMPORTED_MODULE_0__["default"].resolvedLanguage);
   document.documentElement.lang = i18next__WEBPACK_IMPORTED_MODULE_0__["default"].resolvedLanguage;
